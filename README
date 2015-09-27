@@ -1,0 +1,4 @@
+How to build:
+    make sure qt develope packages installed
+    qmake
+    make, you will see a binary file named "talisman_translate", that's it.
