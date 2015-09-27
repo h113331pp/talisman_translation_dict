@@ -43,12 +43,11 @@ UI::UI(QWidget *parent) : QWidget(parent) {
 	setLayout(mainLayout);
 
 	setWindowTitle(tr("Talisman digital edition translate"));
-	connect(filterButton, SIGNAL(pressed()), this, SLOT(handlefilterButton()));
-	connect(filterButton, SIGNAL(clicked()), this, SLOT(handlefilterButton()));
-	connect(cardNameFilter, SIGNAL(returnPressed()), this, SLOT(handlefilterButton()));
+	connect(filterButton, SIGNAL(pressed()), this, SLOT(handleFilterButton()));
+	connect(cardNameFilter, SIGNAL(returnPressed()), this, SLOT(handleFilterButton()));
 }
 
-void UI::handlefilterButton()
+void UI::handleFilterButton()
 {
 	//qDebug() << this->cardNameFilter->text();
 	QDomDocument doc;
