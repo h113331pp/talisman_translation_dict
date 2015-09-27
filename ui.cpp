@@ -44,7 +44,53 @@ UI::UI(QWidget *parent) : QWidget(parent) {
 
 	setWindowTitle(tr("Talisman digital edition translate"));
 	connect(filterButton, SIGNAL(pressed()), this, SLOT(handleFilterButton()));
+	connect(addButton, SIGNAL(pressed()), this, SLOT(handleAddButton()));
 	connect(cardNameFilter, SIGNAL(returnPressed()), this, SLOT(handleFilterButton()));
+}
+
+void UI::handleAddButton()
+{
+	QDomDocument doc;
+	QFile translateFile( "chinese.xml" );
+	if (!translateFile.open(QIODevice::ReadWrite | QIODevice::Text))
+		return;
+
+	QString errorStr;
+	int errorLine, errorCol;
+	doc.setContent(&translateFile, true, &errorStr, &errorLine, &errorCol);
+	translateFile.close();
+	//rootNode stand for <cards> node in chinese.xml
+	QDomNode rootNode = doc.firstChild();
+
+	QDomElement cardTag = doc.createElement(QString("card"));
+
+	QDomElement nameTag = doc.createElement(QString("name"));
+	nameTag.setAttribute("dlc", dlcTranslate->text());
+	nameTag.setAttribute("type", typeTranslate->text());
+	QDomText nameText = doc.createTextNode(QString(this->cardNameFilter->text()).toUpper());
+
+	QDomElement translateTag = doc.createElement(QString("translate"));
+	QDomText translateText = doc.createTextNode(this->cardNameTranslate->text());
+
+	QDomElement descriptionTag = doc.createElement(QString("description"));
+	QDomText descriptionText = doc.createTextNode(this->description->toPlainText());
+
+	descriptionTag.appendChild(descriptionText);
+	translateTag.appendChild(translateText);
+	nameTag.appendChild(nameText);
+	cardTag.appendChild(nameTag);
+	cardTag.appendChild(translateTag);
+	cardTag.appendChild(descriptionTag);
+	rootNode.appendChild(cardTag);
+	doc.appendChild(rootNode);
+
+	//here we open it again, for write purpose
+	if (!translateFile.open(QIODevice::ReadWrite | QIODevice::Truncate))
+		return;
+	QTextStream out(&translateFile);
+	out << doc.toString();
+	translateFile.close();
+
 }
 
 void UI::handleFilterButton()
@@ -140,7 +186,7 @@ bool UI::checkCard(QDomNode card, QString cardNameStr)
 			QDomElement element = node.toElement();
 			if (element.tagName() == "name")
 			{
-				qDebug() << "checking for " << element.text(); 
+				qDebug() << "checking for " << element.text();
 				return (element.text().toLower() == cardNameStr.toLower());
 			}
 		}

@@ -25,6 +25,7 @@ public:
 
 public slots:
 	void handleFilterButton();
+	void handleAddButton();
 
 private:
 	QLineEdit *cardNameFilter;
