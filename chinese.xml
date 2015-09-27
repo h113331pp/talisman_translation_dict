@@ -1,0 +1,35 @@
+<cards>
+	<card>
+		<name type="character" dlc="base">ASSASSIN</name>
+		<translate>刺客</translate>
+		<description>力量：3  智力：3  生命：4  命運：2  金幣：1
+攻擊玩家或者生物時可以選擇暗殺。但被其他玩家攻擊時不能選擇暗殺。
+暗殺的話對手不能執骰子。如果暗殺成功，只能選擇讓對方扣生命點數，不得奪取物品或金幣。
+在諭令之冠處的戰鬥不得選擇暗殺。
+起始地點：城市(City)
+陣營傾向：邪惡(Evil)</description>
+	</card>
+	<card>
+		<name type="character" dlc="base">DRUID</name>
+		<translate>德魯伊</translate>
+		<description>力量：2  智力：4  生命：4  命運：4  金幣：1
+遊戲起始時可以抽一張咒語卡片。
+可以在任意時刻改變陣營傾向，但一回合限轉換一次。
+移動至林地(woods)時可以依照智力值(Craft)許可下將咒語卡抽滿。
+起始地點：森林(Forest)
+陣營傾向：中立(Neutral)</description>
+	</card>
+	<card>
+		<name type="character" dlc="base">DWARF</name>
+		<translate>矮人</translate>
+		<description>"力量：3  智力：3  生命：5  命運：5  金幣：1
+移動到在峭壁(Crags)或者裂谷(Chasm)時可以選擇不執骰，但骰了就必須遵從骰子點數來行動。
+當在山丘(Hills)時可以選擇迴避玩家或生物的攻擊。
+在洞穴(Cave)執骰，點數可以加一。
+在試驗之門(Portal of Power)執骰時，只須骰一顆骰子。
+在礦坑只須骰兩顆骰子。
+不受事件卡迷陣(Maze)的影響。
+起始地點：峭壁(Crags)
+陣營傾向：中立(Neutral)"</description>
+	</card>
+</cards>
