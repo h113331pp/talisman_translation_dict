@@ -261,4 +261,162 @@
   <translate>暴風雨</translate>
   <description>一場暴風雨狂掃這個區域。所有該區域的玩家都失去一回合。暴風雨消散後來到棄牌堆。</description>
  </card>
+ <card/>
+ <card>
+  <name dlc="base" type="enemy">WILD BOAR</name>
+  <translate>野豬</translate>
+  <description>力量：1
+類型：動物
+有一隻野豬在這裡遊蕩。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">WOLF</name>
+  <translate>狼</translate>
+  <description>力量：2
+類型：動物
+一頭兇惡的狼居住在這裡。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">APE</name>
+  <translate>猩猩</translate>
+  <description>力量：3
+類型：動物
+一隻兇性大發的大猩猩在這裡肆虐。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">BEAR</name>
+  <translate>熊</translate>
+  <description>力量：3
+類型：動物
+一頭性情殘暴的熊在這裡瘋狂破壞。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">LION</name>
+  <translate>雄獅</translate>
+  <description>力量：3
+類型：動物
+一頭雄獅在這裡獵捕所有這塊土地上的生物。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">SEPRENT</name>
+  <translate>毒蛇</translate>
+  <description>力量：4
+類型：動物
+一條毒蛇將這裡當成自己的居所。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">DRAGON</name>
+  <translate>龍</translate>
+  <description>力量：7
+類型：龍
+一隻令人膽寒的龍在這個地區肆虐。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">GOBLIN</name>
+  <translate>哥布林</translate>
+  <description>力量：2
+類型：怪物
+一個哥布林在這個地區造成傷亡。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">HOBGOBLIN</name>
+  <translate>巨型哥布林</translate>
+  <description>力量：3
+類型：怪物
+一個殘暴的巨型哥布林盤據在這個地區。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">BANDIT</name>
+  <translate>強盜</translate>
+  <description>力量：4
+類型：怪物
+一個強盜襲擊了這個地區。
+付一塊過路費將可以避免被他攻擊。
+他將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">ORGE</name>
+  <translate>食人魔</translate>
+  <description>力量：5
+類型：怪物
+一個食人魔選擇了這個地區作為他的進食場。
+他將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">GIANT</name>
+  <translate>巨人</translate>
+  <description>力量：6
+一個巨人選擇了這個地區作為他的居所。
+他將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">DOPPELGANGER</name>
+  <translate>分身</translate>
+  <description>力量：7
+類型：怪物
+一個分身擁有跟玩家相同的力量，包含所有道具與咒語的加成效果。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">LEMURE</name>
+  <translate>幽魂</translate>
+  <description>智力：1
+這個低級靈從地下世界像你猛撲而來。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">SHADOW</name>
+  <translate>黯影</translate>
+  <description>智力：2
+類型：靈體
+一個黯影埋伏於這個地區陰暗的角落。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">SPECTRE</name>
+  <translate>幽靈</translate>
+  <description>智力：3
+類型：靈體
+一個幽靈在這個區域現身。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">GHOST</name>
+  <translate>鬼魂</translate>
+  <description>智力：4
+類型：靈體
+一個鬼魂在下列地區現身(請執骰)：
+1) 城市(City)
+2) 村莊(Village)
+3) 墓地(Graveyard)
+4) 教堂(Chapel)
+5) 城堡(Castle)
+6) 寺廟(Temple)
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">WRAITH</name>
+  <translate>亡靈</translate>
+  <description>智力：5
+類型：靈體
+一個亡靈在這裡產生浩劫。
+它將一直在這直到被擊敗。</description>
+ </card>
+ <card>
+  <name dlc="base" type="enemy">DEMON</name>
+  <translate>魔鬼</translate>
+  <description>智力：10
+類型：靈體
+一個魔鬼從地下世界竄出在這裡破壞一切秩序。
+它將一直在這直到被擊敗。</description>
+ </card>
 </cards>
