@@ -176,4 +176,89 @@
 起始地點：森林(Forest)
 陣營傾向：中立(Neutral)</description>
  </card>
+ <card>
+  <name dlc="base" type="event">ANGEL</name>
+  <translate>天使</translate>
+  <description>善良玩家增加一點生命點數，邪惡玩家失去一點生命點數，中立玩家不受影響。
+天使隨後離去後並丟入棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">BLIZZARD</name>
+  <translate>冰雪風暴</translate>
+  <description>冬天帶來猛烈的冰雪風暴壟罩大地。兩回合內不論玩家所在地區，皆只能移動一格。
+冰雪風暴停息後丟入棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">BOOK OF SPELLS</name>
+  <translate>咒語古籍</translate>
+  <description>你找到了傳說的咒語古籍。可以依照目前智力點數來抽滿咒語卡片。
+古籍隨後消失來到了棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">DEVIL</name>
+  <translate>惡魔</translate>
+  <description>你碰到了惡魔。如果玩家陣營傾向為邪惡，則增加一點生命點數；若為善良則失去一生命點數。
+中立則不受影響。惡魔隨即離開。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">EVIL DARKNESS</name>
+  <translate>邪惡黯影</translate>
+  <description>一陣邪惡黯影從地下世界竄出席捲大地。所有非邪惡陣營角色都失去一回合。
+黯影隨後消失來到了棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">IMP</name>
+  <translate>小惡魔</translate>
+  <description>你偶然遇見了一個調皮的小惡魔，執判定骰來決定被傳送到何處：
+一點 - 峭壁(Crags)
+二點 - 森林(Forest)
+三點 - 酒館(Tavern)
+四點 - 廢墟(Ruins)
+五點 - 秘蹤溪谷(Hidden Valley)
+六點 - 詛咒沼林Caused Glade)
+小惡魔隨後將自己傳送到棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">MAGICAL VIRTEX</name>
+  <translate>魔法漩渦</translate>
+  <description>一場魔法漩渦吸收了所有玩家的咒語。
+所有玩家的咒語卡片以及漩渦本身都送進棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">MARKET DAY</name>
+  <translate>特賣日</translate>
+  <description>特賣日降臨了這個大陸，玩家依照順時鐘順序可以立即用以下價格購買貨物：
+長劍 - 一金幣 盾牌 - 二金幣
+頭盔 - 一金幣 水壺 - 一金幣
+驢子 - 二金幣 竹筏 - 三金幣
+特賣日隨後整理貨品並移動至棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">MEPHISTOPHELES</name>
+  <translate>墨菲斯托</translate>
+  <description>墨菲斯托在來到這塊大地的任務之中碰到了你。
+如果玩家陣營傾向為邪惡，則增加一點智力點數；若為善良或中立，牠將轉換你的陣營為邪惡。
+墨菲斯托隨即回到牠自己的黑暗王國。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">PESTILENCE</name>
+  <translate>瘟疫</translate>
+  <description>瘟疫降臨到了這個區域。所有該區域的玩家都會損失一點生命點數。
+瘟疫隨即消散來到了棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">RAIDERS</name>
+  <translate>掠襲隊</translate>
+  <description>一群掠襲隊攻擊了你並偷走了你身上所有的金幣。他們將金幣藏匿在綠洲(Oasis)處並撤退到他們的藏身處。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">SIREN</name>
+  <translate>賽蓮</translate>
+  <description>賽蓮的歌聲在這個區域迴響，所有該區域的玩家都失去一回合。歌聲消散後來到棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="event">STORM</name>
+  <translate>暴風雨</translate>
+  <description>一場暴風雨狂掃這個區域。所有該區域的玩家都失去一回合。暴風雨消散後來到棄牌堆。</description>
+ </card>
 </cards>
