@@ -150,4 +150,30 @@
 起始地點：墓地(Graveyard)
 陣營傾向：邪惡(Evil)</description>
  </card>
+ <card>
+  <name dlc="character pack" type="character">PIRATE</name>
+  <translate>海盜</translate>
+  <description>力量：4  智力：2  生命：4  命運：3  金幣：1
+當有玩家在酒館(Tavern)賭博失去金幣時，直接送來給你。
+當你拜訪酒館(Tavern)時可以不依照說明執判定骰，而是選擇賣掉身上的任何一個道具或隨從給黑市換取一金幣。
+當遭遇場上的NPC角色時，可以選擇強制徵招進自己的隨從隊伍；戰鬥中可以選擇一位強制徵招的隨從參加，
+會增加自己的攻擊力三點，戰鬥完後該強制徵招的隨從會丟入棄牌堆。
+當戰鬥中輸了要扣一點生命點數時，可以選擇棄掉一名強制徵招的隨從代替。
+當移動骰執出六點時，可以選擇不移動而免費使用竹筏一次。
+起始地點：酒館(Tavern)
+陣營傾向：邪惡(Evil)</description>
+ </card>
+ <card>
+  <name dlc="character pack" type="character">NINJA</name>
+  <translate>忍者</translate>
+  <description>力量：3 智力：3 生命：4 命運：2 金幣：1
+不可以擁有隨從。
+攻擊玩家或生物時可以選擇偷襲。對手的力量點數須扣除你的智力點數來跟你對戰(扣除完最低為一)，
+被玩家攻擊時無法選擇偷襲。
+除了內層地區外，可以在任意地區迴避敵人。
+當拜訪城市(City)、酒館(Tavern)、村莊(Village)、教堂(Chapel)或是墓地(Graveyard)，
+都可以不依照說明執判定骰，而是抽取一張冒險卡來代替該地區的指示。
+起始地點：森林(Forest)
+陣營傾向：中立(Neutral)</description>
+ </card>
 </cards>
