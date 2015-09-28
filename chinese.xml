@@ -1,28 +1,28 @@
 <cards>
-	<card>
-		<name type="character" dlc="base">ASSASSIN</name>
-		<translate>刺客</translate>
-		<description>力量：3  智力：3  生命：4  命運：2  金幣：1
+ <card>
+  <name dlc="base" type="character">ASSASSIN</name>
+  <translate>刺客</translate>
+  <description>力量：3  智力：3  生命：4  命運：2  金幣：1
 攻擊玩家或者生物時可以選擇暗殺。但被其他玩家攻擊時不能選擇暗殺。
 暗殺的話對手不能執骰子。如果暗殺成功，只能選擇讓對方扣生命點數，不得奪取物品或金幣。
 在諭令之冠處的戰鬥不得選擇暗殺。
 起始地點：城市(City)
 陣營傾向：邪惡(Evil)</description>
-	</card>
-	<card>
-		<name type="character" dlc="base">DRUID</name>
-		<translate>德魯伊</translate>
-		<description>力量：2  智力：4  生命：4  命運：4  金幣：1
+ </card>
+ <card>
+  <name dlc="base" type="character">DRUID</name>
+  <translate>德魯伊</translate>
+  <description>力量：2  智力：4  生命：4  命運：4  金幣：1
 遊戲起始時可以抽一張咒語卡片。
 可以在任意時刻改變陣營傾向，但一回合限轉換一次。
 移動至林地(woods)時可以依照智力值(Craft)許可下將咒語卡抽滿。
 起始地點：森林(Forest)
 陣營傾向：中立(Neutral)</description>
-	</card>
-	<card>
-		<name type="character" dlc="base">DWARF</name>
-		<translate>矮人</translate>
-		<description>"力量：3  智力：3  生命：5  命運：5  金幣：1
+ </card>
+ <card>
+  <name dlc="base" type="character">DWARF</name>
+  <translate>矮人</translate>
+  <description>力量：3  智力：3  生命：5  命運：5  金幣：1
 移動到在峭壁(Crags)或者裂谷(Chasm)時可以選擇不執骰，但骰了就必須遵從骰子點數來行動。
 當在山丘(Hills)時可以選擇迴避玩家或生物的攻擊。
 在洞穴(Cave)執骰，點數可以加一。
@@ -30,6 +30,124 @@
 在礦坑只須骰兩顆骰子。
 不受事件卡迷陣(Maze)的影響。
 起始地點：峭壁(Crags)
-陣營傾向：中立(Neutral)"</description>
-	</card>
+陣營傾向：中立(Neutral)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">ELF</name>
+  <translate>精靈</translate>
+  <description>力量：3  智力：4  生命：4  命運：3  金幣：1
+移動到森林(Forest)時可以選擇不執骰，但骰了就必須遵從骰子點數來行動。
+在林地(Woods)時可以選擇迴避玩家或生物的攻擊。
+當處於不是林地(Woods)的區域時可以選擇不執骰，直接選擇移動到同區域中其他林地(Woods)。
+起始地點：森林(Forest)
+陣營傾向：善良(Good)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">GHOUL</name>
+  <translate>食屍鬼</translate>
+  <description>力量：2  智力：4  生命：4  命運：4  金幣：1
+攻擊玩家時可以選擇使用智力進行對戰，但是被其他玩家攻擊時無法使用此一能力。
+智力對戰獲勝時，若選擇奪取對方生命一點，則可以加到自己的生命點數上。
+當擊敗一個生物，可以選擇降伏作為自己的隨從，被降伏的隨從可以於任一場戰鬥中喚出，
+並將該生物的力量加於自己的力量上進行戰鬥，戰鬥完後則丟棄該生物隨從。
+起始地點：墓地(Graveyard)
+陣營傾向：邪惡(Evil)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">MINSTREL</name>
+  <translate>音樂家</translate>
+  <description>力量：2 智力：4 生命：4 命運：5 金幣：1
+不會被動物以及龍攻擊，但你還是可以選擇與他們戰鬥。
+與動物戰鬥時，可以選擇魅惑(Charm)它。此時執判定骰：
+當骰子點數大於動物力量時，該動物就會成為隨從，並於往後戰鬥中可以加上它的力量。
+一次戰鬥中只能選擇一隻動物隨從使用此能力。
+移動至其他玩家處，若玩家擁有仕女(Maiden)或公主(Princesee)可以直接取走。
+起始地點：酒館(Tavern)
+陣營傾向：善良(Good)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">MONK</name>
+  <translate>僧侶</translate>
+  <description>力量：2 智力：3 生命：4 命運：5 金幣：1
+虔誠的信仰讓你可以在戰鬥中將初始智力點數(三點)加到力量上進行戰鬥。
+進行祈禱(Pray)時，執判定骰的點數可以加一。
+戰鬥中無法使用任何武器與鎧甲。
+起始地點：村莊(Village)
+陣營傾向：善良(Good)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">PRIEST</name>
+  <translate>傳教士</translate>
+  <description>力量：2  智力：4  生命：4  命運：5  金幣：1
+遊戲起始時可以抽一張咒語卡片。
+進行祈禱(Pray)時，執判定骰的點數可以加一。
+與幽靈系敵人戰鬥時，不須進行智力對戰即可摧毀敵人。
+選擇摧毀不得將該幽靈生物作為戰利品(Trophy)，但可以抽一張咒語卡片。
+戰鬥中無法使用任何武器與鎧甲。
+起始地點：教堂(Chapel)
+陣營傾向：善良(Good)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">PROPHETESS</name>
+  <translate>女先知</translate>
+  <description>力量：2 智力：4 生命：4 命運：2 金幣：1
+遊戲起始時可以抽一張咒語卡片。
+遊戲進行中隨時保有一張咒語卡片，一旦詠唱了最後一張即可立刻抽取一張咒語卡片。
+抽取冒險卡後若不滿意，可以選擇重抽一張代替，但一旦重抽，一定要接受重抽的結果。
+遊戲中任何時刻都可以檢視任何玩家的咒語卡片。
+起始地點：教堂(Chapel)
+陣營傾向：善良(Good)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">SORCERESS</name>
+  <translate>女術士</translate>
+  <description>力量：2  智力：4  生命：4  命運：3  金幣：1
+遊戲起始時可以抽一張咒語卡片。
+攻擊玩家時可以選擇使用智力進行對戰，但是被其他玩家攻擊時無法使用此一能力。
+移動至其他玩家處，你可以選擇欺騙該玩家，執判定骰：
+六點才能欺騙善良玩家，五、六點欺騙中立玩家，四、五、六點欺騙邪惡玩家。
+欺騙成功可以奪取玩家身上一個道具或者一枚金幣。
+移動至其他玩家處，可以從玩家奪取任一個隨從，除了：仕女(Maiden)、獨角獸(Unicorn)、公主(Princess)。
+起始地點：墓地(Graveyard)
+陣營傾向：邪惡(Evil)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">THIEF</name>
+  <translate>盜賊</translate>
+  <description>力量：3 智力：3 生命：4 命運：2 金幣：1
+移動至其他玩家處，可以奪取玩家身上一個道具或者一枚金幣。
+當造訪市場(Market)時，特賣日(Market Day)或村莊(Village)時，
+可以從貨物卡上拿取一項免費的貨物(此時還是可以購買一項貨物)。
+起始地點：城市(City)
+陣營傾向：中立(Neutral)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">TROLL</name>
+  <translate>巨魔</translate>
+  <description>力量：6 智力：1 生命：6 命運：1 金幣：1
+移動到在外層峭壁(Crags)時可以選擇不執骰，但骰了就必須遵從骰子點數來行動。
+移動骰到六點時，可以選擇回復(Regenerate)，選擇回負責該回合無法移動，
+生命點數加一後，回合立即結束。
+起始地點：峭壁(Crags)
+陣營傾向：中立(Neutral)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">WARRIOR</name>
+  <translate>武士</translate>
+  <description>力量：4  智力：2  生命：5  命運：1  金幣：1
+戰鬥中可以執兩次骰子，選點數較高的那一顆加上自己的力量點數。
+一場戰鬥可以持兩把武器。
+起始地點：酒館(Tavern)
+陣營傾向：中立(Neutral)</description>
+ </card>
+ <card>
+  <name dlc="base" type="character">WIZZARD</name>
+  <translate>巫師</translate>
+  <description>力量：2  智力：5  生命：4  命運：3  金幣：1
+遊戲起始時可以抽兩張咒語卡片。
+遊戲進行中隨時保有一張咒語卡片，一旦詠唱了最後一張即可立刻抽取一張咒語卡片。
+攻擊玩家時可以選擇使用智力進行對戰，但是被其他玩家攻擊時無法使用此一能力。
+起始地點：墓地(Graveyard)
+陣營傾向：邪惡(Evil)</description>
+ </card>
 </cards>
