@@ -419,4 +419,71 @@
 一個魔鬼從地下世界竄出在這裡破壞一切秩序。
 它將一直在這直到被擊敗。</description>
  </card>
+ <card>
+  <name dlc="base" type="stranger">ENCHANTER</name>
+  <translate>附魔師</translate>
+  <description>一個男巫師在尋找有能力的冒險者，第一位遭遇他的玩家若是智力有大於四點，他會讓該玩家抽取一張咒語卡片
+或是增加一金幣、或是力量、智力、生命、命運點數任一點。又或者世傳送到該區域任何地點。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">FAIRY</name>
+  <translate>小仙子</translate>
+  <description>一個小仙子在尋找一位品性兼優的人。
+第一位遭遇他的善良玩家可以增加一金幣、或是力量、智力、生命、命運點數任一點。
+又或者傳送到該區域任何地點。小仙子隨後即消失在棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">HEALER</name>
+  <translate>治療師</translate>
+  <description>一位治療師在此定居。
+它將會免費為每位來訪的玩家恢復兩點生命點數。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">HERMIT</name>
+  <translate>隱士</translate>
+  <description>執骰來為隱士選擇移動的地點：
+1) 地窖(Crypt)
+2) 災禍平原(Plain of Peril)
+3) 詛咒沼林(Cursed Glade)
+4) 綠洲(Oasis)
+5) 峭壁(Crags)
+6) 森林(Forest)
+它會給第一位造訪的玩家一個符文(Talisman)，前提是該玩家物品沒滿。
+隨後消失在棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">INSTRUCTOR</name>
+  <translate>指導者</translate>
+  <description>指導者將會一直停留在此處直到遊戲結束。
+只要價錢合理指導者很樂意教導你，只要付三金幣，就能以停止行動一回合換取一點力量或智力點數。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">MAGE</name>
+  <translate>法師</translate>
+  <description>一個慈祥的法師在這裡定居直到遊戲結束。
+每位善良玩家造訪他都可以免費抽取咒語卡片一次，前提是在智力准許範圍內。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">PHANTOM</name>
+  <translate>魅影</translate>
+  <description>一名魅影在這裡作祟直到第一位邪惡玩家來訪，可以增加一金幣、或是力量、智力、生命、命運點數任一點。
+又或者傳送到該區域任何地點。魅影隨後即消失在棄牌堆。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">SORCERER</name>
+  <translate>術士</translate>
+  <description>一位術士在這裡開業直到遊戲結束。
+造訪者可以已一金幣的代價抽取一張咒語卡片，前提是在智力准許範圍內。</description>
+ </card>
+ <card>
+  <name dlc="base" type="stranger">WITCH</name>
+  <translate>荒野女巫</translate>
+  <description>一位荒野女巫在這裡隱居直到遊戲結束，如果來到這裡必須執判定骰：
+1) 變成蟾蜍三回合
+2) 失去一點生命點數
+3) 增加一點力量
+4) 增加一點智力
+5) 抽取一張咒語卡片
+6) 將命運點數補滿</description>
+ </card>
 </cards>
